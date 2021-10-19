@@ -4,3 +4,13 @@
 
 1. 数据结构JS实现
 2. 学习的算法
+
+setup
+
+```
+npm i --registry https://registry.npm.taobao.org
+```
+测试
+```
+npm run test
+```
