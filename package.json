@@ -1,0 +1,22 @@
+{
+  "name": "data-structure",
+  "version": "1.0.0",
+  "description": "data structure and algorithm with es6's implementation",
+  "keywords": [
+    "data",
+    "structure",
+    "algorithm"
+  ],
+  "author": "oulafen",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.3.0",
+    "jest": "^27.3.0"
+  }
+}

@@ -1,2 +1,6 @@
 # data-structure-algorithm
-数据结构与算法
+
+本项目主要记录以下两点
+
+1. 数据结构JS实现
+2. 学习的算法
