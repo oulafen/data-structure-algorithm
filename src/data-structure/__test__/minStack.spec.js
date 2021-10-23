@@ -1,35 +1,5 @@
 // 数据结构测试
-import Stack from '../src/data-structure/Stack';
-import MinStack from '../src/data-structure/StackWithMin';
-
-const stack = new Stack();
-
-describe('栈', () => {
-    beforeEach(() => {
-        stack.clear().push(1).push(2).push(3);
-    });
-
-    test('入栈', () => {
-        expect(stack.stack).toMatchObject([1, 2, 3])
-    });
-    test('出栈', () => {
-        expect(stack.pop()).toBe(3);
-        expect(stack.stack).toMatchObject([1, 2]);
-    });
-    test('栈顶', () => {
-        expect(stack.top()).toBe(3);
-        expect(stack.stack).toMatchObject([1, 2, 3]);
-    });
-    test('大小', () => {
-        expect(stack.size()).toBe(3);
-    });
-    test('清空', () => {
-        expect(stack.clear().stack).toMatchObject([]);
-    });
-    test('是否为空', () => {
-        expect(stack.isEmpty()).toBeFalsy();
-    });
-})
+import MinStack from '../MinStack';
 
 const minStack = new MinStack();
 describe('栈', () => {

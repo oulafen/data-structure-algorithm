@@ -1,16 +1,7 @@
-# data-structure-algorithm
+# 简介
 
 本项目主要记录以下两点
 
 1. 数据结构JS实现
 2. 学习的算法
-
-setup
-
-```
-npm i --registry https://registry.npm.taobao.org
-```
-测试
-```
-npm run test
-```
+3. 源码学习与实现
